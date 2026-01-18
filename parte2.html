@@ -1,0 +1,341 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Parte 2: Ameaças Externas - Guia de Resiliência</title>
+    
+    <!-- CORREÇÃO 1: Link apontando para a pasta css/ -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- CONTAINER PRINCIPAL DA APRESENTAÇÃO -->
+    <main id="presentation-container">
+
+        <!-- SLIDE 1 (Geral #16): Abertura Parte 2 -->
+        <section class="slide" id="slide-1">
+            <h3>PARTE 2: A DEFESA NECESSÁRIA - AMEAÇAS EXTERNAS</h3>
+            <p>Quando o sistema é estável e os processos são seguidos, o próximo passo é protegê-lo de quem tenta explorar falhas ou enganar pessoas.</p>
+        </section>
+
+        <!-- SLIDE 2 (Geral #17): Item 11 -->
+        <section class="slide" id="slide-2">
+            <h3>11. O Golpe da “Fatura em Duplicidade” (BEC 4.0)</h3>
+            <p><strong>⚠️ O Perigo:</strong> E-mail de um fornecedor legítimo informando erro em fatura e solicitando pagamento urgente via novo PIX.</p>
+            <p><strong>🚨 Por que é perigoso?</strong> O e-mail do parceiro foi invadido. O dinheiro vai para o criminoso, mas a dívida real permanece. Prejuízo duplo.</p>
+            <p><strong>🛡️ O que fazer:</strong> INTERROMPA o pagamento. CONFIRME por ligação para o número oficial cadastrado (não use o número do e-mail).</p>
+            <p><strong>📌 Impacto:</strong> Financeiro | Reputacional</p>
+            <p><strong>🔺 Em 2026:</strong> Criminosos usam IA para imitar o tom de voz do fornecedor em ligações falsas de confirmação.</p>
+        </section>
+
+        <!-- SLIDE 3 (Geral #18): Item 12 -->
+        <section class="slide" id="slide-3">
+            <h3>12. O Currículo “Executável” (Ransomware 4.0)</h3>
+            <p><strong>⚠️ O Perigo:</strong> Currículo com nome enganoso, como curriculo_vaga_adm.pdf.exe.</p>
+            <p><strong>🚨 Por que é perigoso?</strong> Arquivos .exe instalam Ransomware. Todos os dados são criptografados e informações pessoais (LGPD) são roubadas para chantagem.</p>
+            <p><strong>🛡️ O que fazer:</strong> SEMPRE VERIFIQUE a extensão real do arquivo. NUNCA ABRA executáveis (.exe, .bat, .scr, .msi). Delete e reporte à TI.</p>
+            <p><strong>📌 Impacto:</strong> Operacional (paralisação total) | Legal (LGPD)</p>
+            <p><strong>🔺 Em 2026:</strong> Extorsão pessoal: criminosos entram em contato com familiares de funcionários usando dados vazados.</p>
+        </section>
+
+        <!-- SLIDE 4 (Geral #19): Item 13 -->
+        <section class="slide" id="slide-4">
+            <h3>13. Fraude via QR Code (Quishing)</h3>
+            <p><strong>⚠️ O Perigo:</strong> Solicitação para escanear QR Code para “assinatura digital” ou "rastreio de carga".</p>
+            <p><strong>🚨 Por que é perigoso?</strong> O QR Code leva a um site falso que rouba os Cookies de Sessão. O invasor entra no sistema já logado como você, pulando senha e autenticação em duas etapas.</p>
+            <p><strong>🛡️ O que fazer:</strong> Use apenas aplicativos homologados pela empresa. SEMPRE clique em "Sair" ou "Logoff" ao finalizar tarefas sensíveis.</p>
+            <p><strong>📌 Impacto:</strong> Operacional | Financeiro (desvios)</p>
+            <p><strong>🔺 Em 2026:</strong> Com a adoção de Passkeys (biometria), roubar a sessão ativa via QR Code é o método mais eficaz.</p>
+        </section>
+
+        <!-- SLIDE 5 (Geral #20): Item 14 -->
+        <section class="slide" id="slide-5">
+            <h3>14. Shadow AI e Vazamento Estratégico</h3>
+            <p><strong>⚠️ O Perigo:</strong> Colar trechos de contratos, listas de preços ou estratégias comerciais em IAs públicas gratuitas (ChatGPT, Gemini) para traduções ou resumos.</p>
+            <p><strong>🚨 Por que é perigoso?</strong> Essas IAs usam as entradas para treinar seus modelos. Informações confidenciais deixam de ser secretas e podem ser "lembradas" e regurgitadas para outros usuários.</p>
+            <p><strong>🛡️ O que fazer:</strong> ANONIMIZE os dados antes de usar. Remova nomes, valores e referências internas. Use apenas ferramentas de IA aprovadas e controladas pela empresa.</p>
+            <p><strong>📌 Impacto:</strong> Estratégico (perda de vantagem competitiva) | Reputacional</p>
+            <p><strong>🔺 Em 2026:</strong> Técnicas de "engenharia de prompts" permitem que concorrentes extraiam dados confidenciais usados para treinar modelos públicos.</p>
+        </section>
+
+        <!-- SLIDE 6 (Geral #21): Item 15 -->
+        <section class="slide" id="slide-6">
+            <h3>15. Vazamento de Dados Sensíveis (LGPD)</h3>
+            <p><strong>⚠️ O Perigo:</strong> Tirar foto de um laudo, exame ou documento confidencial e compartilhar via WhatsApp pessoal ou e-mail pessoal para "agilizar".</p>
+            <p><strong>🚨 Por que é perigoso?</strong> Dados de saúde e dados pessoais têm proteção rigorosa na LGPD. O vazamento gera multas multimilionárias e processos por danos morais.</p>
+            <p><strong>🛡️ O que fazer:</strong> UTILIZE APENAS os sistemas e canais de comunicação oficiais e auditáveis da empresa.</p>
+            <p><strong>📌 Impacto:</strong> Legal (LGPD - sanções máximas) | Reputacional</p>
+            <p><strong>🔺 Em 2026:</strong> Criminosos cruzam metadados de fotos vazadas com dados públicos para fazer smishing (SMS falso) ultra-direcionado.</p>
+        </section>
+
+        <!-- SLIDE 7 (Geral #22): Item 16 -->
+        <section class="slide" id="slide-7">
+            <h3>16. Engenharia Social Física (BadUSB)</h3>
+            <p><strong>⚠️ O Perigo:</strong> Um prestador ou visitante pede para conectar um pendrive ou cabo de carregamento "de brinde" no seu computador.</p>
+            <p><strong>🚨 Por que é perigoso?</strong> O dispositivo pode ser um BadUSB: um chip que se passa por um teclado e "digita" comandos para instalar vírus ou dar controle remoto em segundos.</p>
+            <p><strong>🛡️ O que fazer:</strong> POLÍTICA USB ZERO. Nunca conecte qualquer dispositivo que não tenha sido fornecido explicitamente pela TI. Bloqueie sua estação (Tecla Windows + L) ao se afastar.</p>
+            <p><strong>📌 Impacto:</strong> Integridade do Sistema | Segurança da Informação (vazamento total)</p>
+            <p><strong>🔺 Em 2026:</strong> Dispositivos maliciosos são miniaturizados em cabos de celular comuns ou receptores de mouse sem fio falsificados.</p>
+        </section>
+
+        <!-- SLIDE 8 (Geral #23): Item 17 -->
+        <section class="slide" id="slide-8">
+            <h3>17. Link de “Erro Crítico” (Session Hijacking)</h3>
+            <p><strong>⚠️ O Perigo:</strong> Um cliente envia uma mensagem urgente: "O sistema está com erro! Clique aqui para ver o print: [link encurtado]".</p>
+            <p><strong>🚨 Por que é perigoso?</strong> O link rouba o cookie de autenticação da sua sessão ativa. O invasor assume sua identidade digital sem senha, podendo manipular dados ou desviar informações.</p>
+            <p><strong>🛡️ O que fazer:</strong> NUNCA clique em links para visualizar supostos prints. Solicite que a imagem seja anexada diretamente no sistema oficial.</p>
+            <p><strong>📌 Impacto:</strong> Financeiro (fraudes) | Reputacional | Operacional</p>
+            <p><strong>🔺 Em 2026:</strong> Ataques "Browser-in-the-Browser" simulam uma janela de login perfeita da empresa dentro do seu navegador.</p>
+        </section>
+
+        <!-- SLIDE 9 (Geral #24): Item 18 -->
+        <section class="slide" id="slide-9">
+            <h3>18. Convite de Edição Falso</h3>
+            <p><strong>⚠️ O Perigo:</strong> Receber um convite para editar um documento no Google Drive ou Canva que pede login novamente com sua conta corporativa.</p>
+            <p><strong>🚨 Por que é perigoso?</strong> É uma página de phishing idêntica à original. Suas credenciais são roubadas, dando acesso a e-mails e arquivos na nuvem.</p>
+            <p><strong>🛡️ O que fazer:</strong> VERIFIQUE SEMPRE A URL DA PÁGINA DE LOGIN. Desconfie de qualquer tela de login fora do portal oficial de acesso único (SSO) da empresa.</p>
+            <p><strong>📌 Impacto:</strong> Operacional | Financeiro | Confidencialidade</p>
+            <p><strong>🔺 Em 2026:</strong> Criminosos hackeiam contas reais em plataformas de colaboração para enviar convites maliciosos.</p>
+        </section>
+
+        <!-- SLIDE 10 (Geral #25): Item 19 -->
+        <section class="slide" id="slide-10">
+            <h3>19. Arquivos e Macros Evoluídas</h3>
+            <p><strong>⚠️ O Perigo:</strong> Planilha que pede “Habilitar Macros” ou arquivo .ISO / .VHD para ser "montado" como disco virtual.</p>
+            <p><strong>🚨 Por que é perigoso?</strong> Macros podem conter código malicioso. Arquivos de imagem de disco (.ISO) contornam as proteções de antivírus e podem carregar spyware silencioso.</p>
+            <p><strong>🛡️ O que fazer:</strong> NUNCA habilite macros em arquivos de origem desconhecida. NUNCA monte arquivos de disco recebidos externamente. Solicite dados em PDF ou via relatórios seguros.</p>
+            <p><strong>📌 Impacto:</strong> Operacional | Integridade de Dados | Confidencialidade</p>
+            <p><strong>🔺 Em 2026:</strong> Criminosos migraram para arquivos de atalho (.LNK) disfarçados, que executam scripts PowerShell maliciosos.</p>
+        </section>
+
+        <!-- SLIDE 11 (Geral #26): Item 20 -->
+        <section class="slide" id="slide-11">
+            <h3>20. Deepfake e MFA Fatigue (Ataque de Autoridade Artificial)</h3>
+            <p><strong>⚠️ O Perigo:</strong> Áudio ou vídeo do seu gestor pedindo com urgência: "Aprova aí a notificação que vai chegar no seu celular".</p>
+            <p><strong>🚨 Por que é perigoso?</strong> Deepfake de voz/vídeo tira sua guarda. Seu celular é inundado com notificações de "Aprovar acesso?" (MFA Push). Sob pressão, você pode clicar sem pensar.</p>
+            <p><strong>Autoridade Artificial:</strong> Em 2026, autoridade não é apenas cargo ou logotipo. É tom de voz, contexto e urgência bem encenados. Aprenda a validar a origem, não a aparência. Nenhuma autoridade legítima exige que você quebre um processo.</p>
+            <p><strong>🛡️ O que fazer:</strong> NUNCA aprove uma notificação de autenticação que você não solicitou. Desligue e retorne a ligação para um número conhecido para confirmar.</p>
+            <p><strong>📌 Impacto:</strong> Financeiro (transferências irreversíveis) | Estratégico</p>
+            <p><strong>🔺 Em 2026:</strong> Simulação de reuniões de vídeo em grupo usando deepfakes para validar fraudes.</p>
+        </section>
+
+        <!-- SLIDE 12 (Geral #27): Item 21 -->
+        <section class="slide" id="slide-12">
+            <h3>21. Trabalho Híbrido — A Extensão do Perímetro</h3>
+            <p><strong>⚠️ O Perigo:</strong> Usar o notebook corporativo para fins pessoais ou ter rede Wi-Fi de casa com senha fraca.</p>
+            <p><strong>🚨 Por que é perigoso?</strong> Seu notebook na rede doméstica é uma ponte. Um vírus no celular de um familiar pode pular para o notebook e, através da VPN, atingir a rede corporativa.</p>
+            <p><strong>🛡️ O que fazer:</strong> USO ESTRITAMENTE PROFISSIONAL do equipamento. MANTENHA a rede Wi-Fi doméstica segura. USE SEMPRE a VPN corporativa.</p>
+            <p><strong>📌 Impacto:</strong> Operacional | Legal (LGPD - se dados vazarem de casa)</p>
+            <p><strong>🔺 Em 2026:</strong> Ataques exploram falhas em dispositivos de IoT domésticos (câmeras, lâmpadas) para alcançar o notebook corporativo.</p>
+        </section>
+
+        <!-- SLIDE 13 (Geral #28): Item 22 -->
+        <section class="slide" id="slide-13">
+            <h3>22. Shadow SaaS (O Risco Invisível)</h3>
+            <p><strong>⚠️ O Perigo:</strong> Acessar um site de produtividade e clicar em "Entrar com Conta Microsoft/Google", usando seu e-mail corporativo.</p>
+            <p><strong>🚨 Por que é perigoso?</strong> Você concede permissões para a aplicação ler, modificar e deletar seus e-mails e arquivos na nuvem. É uma fuga de dados silenciosa e autorizada.</p>
+            <p><strong>🛡️ O que fazer:</strong> NUNCA use sua identidade corporativa para acessar serviços externos não homologados pela TI.</p>
+            <p><strong>📌 Impacto:</strong> Confidencialidade | LGPD (vazamento de dados)</p>
+            <p><strong>🔺 Em 2026:</strong> A explosão de micro-ferramentas de IA gera dezenas de integrações de API não autorizadas, criando uma superfície de ataque impossível de gerenciar.</p>
+        </section>
+
+        <!-- SLIDE 14 (Geral #29): Item 23 -->
+        <section class="slide" id="slide-14">
+            <h3>23. Vishing com Spoofing (Suporte Falso)</h3>
+            <p><strong>⚠️ O Perigo:</strong> Ligação do "Suporte de TI" dizendo que há um vírus no seu computador e pedindo para instalar um programa de acesso remoto (AnyDesk, TeamViewer).</p>
+            <p><strong>🚨 Por que é perigoso?</strong> Com o programa instalado, o criminoso tem controle total do seu computador. Pode instalar malware, roubar arquivos e espionar senhas.</p>
+            <p><strong>🛡️ O que fazer:</strong> DESLIGUE IMEDIATAMENTE. O suporte de TI legítimo NUNCA liga pedindo para instalar software de acesso remoto de forma inesperada.</p>
+            <p><strong>📌 Impacto:</strong> Segurança da Informação (comprometimento total) | Confidencialidade</p>
+            <p><strong>🔺 Em 2026:</strong> Caller ID Spoofing faz a ligação maliciosa aparecer com o número interno da TI da empresa.</p>
+        </section>
+
+        <!-- SLIDE 15 (Geral #30): Item 24 -->
+        <section class="slide" id="slide-15">
+            <h3>24. Engenharia Social Cognitiva (LinkedIn)</h3>
+            <p><strong>⚠️ O Perigo:</strong> Um "recrutador de uma grande empresa" ou "diretor de empresa-parceira" no LinkedIn envia um link para uma "proposta confidencial" ou "relatório de benchmarking".</p>
+            <p><strong>🚨 Por que é perigoso?</strong> Objetivo é espionagem industrial ou roubo de credenciais. O link pode baixar um documento infectado ou levar a um site falso de login.</p>
+            <p><strong>🛡️ O que fazer:</strong> DESCONFIE DE LINKS E ANEXOS DE CONEXÕES NOVAS. Nunca abra. Valide a identidade por outros canais.</p>
+            <p><strong>📌 Impacto:</strong> Estratégico (perda de segredos) | Reputacional | Financeiro</p>
+            <p><strong>🔺 Em 2026:</strong> Perfis falsos 100% gerados por IA, com históricos e postagens realistas, tornam a detecção quase impossível.</p>
+        </section>
+
+        <!-- SLIDE 16 (Geral #31): Item 25 -->
+        <section class="slide" id="slide-16">
+            <h3>25. A Isca da Fiscalização</h3>
+            <p><strong>⚠️ O Perigo:</strong> E-mail aparentemente oficial sobre uma "multa aplicada" ou "notificação de auditoria" contra a empresa, com botão para "baixar o edital".</p>
+            <p><strong>🚨 Por que é perigoso?</strong> Explora o medo institucional. O anexo instala spyware que ativa webcam e microfone, ou um ransomware que criptografa todos os arquivos.</p>
+            <p><strong>🛡️ O que fazer:</strong> NÃO CLIQUE. ACESSE DIRETAMENTE o portal oficial do órgão (.gov.br) usando seu navegador.</p>
+            <p><strong>📌 Impacto:</strong> Operacional | Reputacional | Confidencialidade</p>
+            <p><strong>🔺 Em 2026:</strong> Golpes personalizados com dados reais da empresa (CNPJ, nomes) obtidos em vazamentos públicos.</p>
+        </section>
+
+        <!-- SLIDE 17 (Geral #32): Item 26 -->
+        <section class="slide" id="slide-17">
+            <h3>26. Compartilhamento de Credenciais</h3>
+            <p><strong>⚠️ O Perigo:</strong>  Compartilhar usuário e senha para que um colega “finalize uma tarefa rápida” ou execute uma ação em seu nome.</p>
+            <p><strong>🚨 Por que é perigoso?</strong> Essa prática rompe o sistema de rastreabilidade e transparência operacional. O registro de logs, auditorias e trilhas de decisão deixa de refletir a realidade. Qualquer erro, inconsistência, violação de processo ou impacto financeiro será formalmente atribuído ao titular da credencial, independentemente de quem executou a ação. Isso inviabiliza investigações internas, auditorias e responsabilização correta, além de comprometer a governança corporativa.</p>
+            <p><strong>🛡️ O que fazer:</strong> Credenciais são pessoais, intransferíveis e equivalentes a uma assinatura profissional. Nunca compartilhe. Caso um colaborador necessite de acesso, ele deve solicitar provisionamento formal à TI ou à gestão, ou realizar o procedimento oficial de redefinição de senha.</p>
+            <p><strong>📌 Impacto:</strong> Legal | Auditoria | Compliance | Governança | Responsabilidade Individual</p>
+            <p><strong>🔺 Em 2026:</strong> Plataformas corporativas utilizam Biometria Comportamental e Análise de Padrões de Uso (cadência de digitação, navegação e interação). O uso compartilhado de contas gera alertas automáticos, bloqueios preventivos e abertura de incidentes de segurança, mesmo sem intenção maliciosa.</p>
+        </section>
+
+        <!-- SLIDE 18 (Geral #33): Encerramento -->
+        <section class="slide" id="slide-18">
+            <h3>🎯 O QUE A EMPRESA ESPERA DE VOCÊ: O CONTRATO PSICOLÓGICO DA RESILIÊNCIA</h3>
+            <p>Ao adotar as práticas deste guia, você atende a três expectativas fundamentais que toda organização tem de um profissional confiável:</p>
+            <ul>
+                <li><strong>CUIDADO COM OS DADOS E PROCESSOS:</strong> Trate as informações e os fluxos de trabalho como ativos valiosos que são. Sua precisão é a base da operação.</li>
+                <li><strong>RESPEITO AOS PROCEDIMENTOS E FERRAMENTAS OFICIAIS:</strong> Entenda que regras e sistemas homologados existem para proteger você, seus colegas e o negócio como um todo.</li>
+                <li><strong>COMUNICAÇÃO IMEDIATA E TRANSPARENTE DE QUALQUER DESVIO:</strong> Seja o sensor que detecta problemas. Sua voz é essencial para corrigir rotas e evitar crises.</li>
+            </ul>
+        </section>
+
+        <!-- SLIDE 19 (Geral #34): Conclusão -->
+        <section class="slide" id="slide-19">
+            <h3>Entendendo a Diferença: Erro Honesto vs. Negligência</h3>
+            <p>A empresa distingue a intenção e a postura:</p>
+            <ul>
+                <li><strong>Erro Honesto:</strong> Você seguiu os processos, agiu de boa-fé, algo falhou e você comunicou imediatamente. Isso é aprendizado e melhoria.</li>
+                <li><strong>Negligência:</strong> Você ignorou um procedimento claro, improvisou sabendo dos riscos, ou escondeu um problema. Isso expõe a empresa a perigos desnecessários e quebra a confiança.</li>
+            </ul>
+            <p>A LGPD e a Governança protegem o profissional transparente. Sua carreira será construída sobre a confiança que você gerar através da responsabilidade e da clareza.</p>
+            <p><strong>Este guia não é sobre medo. É sobre a competência profissional que constrói carreiras sólidas e empresas resilientes.</strong></p>
+
+            <!-- CORREÇÃO 2: BOTÃO ADICIONADO AQUI -->
+            <button id="btn-open-ref" style="margin-top: 20px; padding: 10px 20px; background: transparent; border: 2px solid #00458b; color: #00458b; border-radius: 5px; cursor: pointer; font-weight: bold;">
+                📚 Ver Referências e Contexto de Mercado
+            </button>
+        </section>
+
+    </main>
+
+    <!-- Player de Música de Fundo (Invisível) -->
+    <audio id="bg-music" loop>
+        <source src="audios/musica.mp3" type="audio/mpeg">
+    </audio>
+
+    <!-- CORREÇÃO 3: Link apontando para a pasta js/ -->
+    <script src="script-parte2.js" defer></script>
+
+    <!-- MODAL DE REFERÊNCIAS (Janela Oculta) -->
+    <div id="modal-ref" class="modal-overlay">
+        <div class="modal-content">
+            <span id="btn-close-ref" class="close-btn">&times;</span>
+            <h2>Referências e Contexto de Mercado</h2>
+            <p style="font-style: italic; font-size: 0.9em;">(Consulta Opcional)</p>
+            
+            <p>Os temas abordados neste guia foram definidos com base em ocorrências reais, tendências documentadas e boas práticas consolidadas. As referências abaixo demonstram que os riscos são concretos.</p>
+            
+            <div class="ref-list">
+                <div class="ref-item">
+                    <h4>1. Erro de Cadastro Mestre</h4>
+                    <p>Relatórios sobre falhas em dados mestres e impactos em ERP. <em>Fonte: Consultorias de gestão e portais de ERP.</em></p>
+                </div>
+                <div class="ref-item">
+                    <h4>2. Shadow IT / Shadow AI</h4>
+                    <p>Uso não autorizado de ferramentas digitais. <em>Fonte: Gartner, ISACA.</em></p>
+                </div>
+                <div class="ref-item">
+                    <h4>3. Omissão na Notificação</h4>
+                    <p>Boas práticas de reporte proativo. <em>Fonte: NIST Cybersecurity Framework, ISO/IEC 27001.</em></p>
+                </div>
+                <div class="ref-item">
+                    <h4>4. Atalho Perigoso</h4>
+                    <p>Corrupção de dados por interrupção inadequada. <em>Fonte: Literatura técnica de administração de sistemas.</em></p>
+                </div>
+                <div class="ref-item">
+                    <h4>5. Gestão de Versão</h4>
+                    <p>Perda da “fonte da verdade”. <em>Fonte: Metodologias de gestão do conhecimento.</em></p>
+                </div>
+                <div class="ref-item">
+                    <h4>6. Integridade de Fórmulas</h4>
+                    <p>Manipulação indevida em planilhas críticas. <em>Fonte: Governança de dados e controles internos.</em></p>
+                </div>
+                <div class="ref-item">
+                    <h4>7. Transparência Assíncrona</h4>
+                    <p>Documentação em ambientes híbridos. <em>Fonte: Metodologias ágeis e gestão de projetos.</em></p>
+                </div>
+                <div class="ref-item">
+                    <h4>8. Governança de Acessos</h4>
+                    <p>Privilégio mínimo e revogação. <em>Fonte: LGPD, ISO/IEC 27001.</em></p>
+                </div>
+                <div class="ref-item">
+                    <h4>9. Classificação de Informações</h4>
+                    <p>Classificação conforme sensibilidade. <em>Fonte: Políticas de segurança da informação.</em></p>
+                </div>
+                <div class="ref-item">
+                    <h4>10. Gestão de Identidade</h4>
+                    <p>Credenciais comprometidas e higiene cibernética. <em>Fonte: Relatórios anuais de violações.</em></p>
+                </div>
+                <div class="ref-item">
+                    <h4>11. Golpe da Fatura (BEC)</h4>
+                    <p>Fraudes financeiras Business Email Compromise. <em>Fonte: FBI IC3 e empresas de cibersegurança.</em></p>
+                </div>
+                <div class="ref-item">
+                    <h4>12. Currículo Executável</h4>
+                    <p>Malware disfarçado de documento. <em>Fonte: Alertas de segurança e relatórios de incidentes.</em></p>
+                </div>
+                <div class="ref-item">
+                    <h4>13. Fraude via QR Code (Quishing)</h4>
+                    <p>Phishing em mídias físicas. <em>Fonte: Alertas de segurança e reportagens técnicas.</em></p>
+                </div>
+                <div class="ref-item">
+                    <h4>14. Shadow AI e Vazamento</h4>
+                    <p>Uso de IAs públicas e vazamento de dados. <em>Fonte: Pesquisas sobre adoção de IA.</em></p>
+                </div>
+                <div class="ref-item">
+                    <h4>15. Vazamento de Dados Sensíveis</h4>
+                    <p>Incidentes com dados pessoais. <em>Fonte: LGPD, ANPD.</em></p>
+                </div>
+                <div class="ref-item">
+                    <h4>16. Engenharia Social Física</h4>
+                    <p>Dispositivos USB maliciosos (BadUSB). <em>Fonte: Relatórios de pentest e Red Team.</em></p>
+                </div>
+                <div class="ref-item">
+                    <h4>17. Link de “Erro Crítico”</h4>
+                    <p>Phishing explorando urgência. <em>Fonte: Relatórios de engenharia social.</em></p>
+                </div>
+                <div class="ref-item">
+                    <h4>18. Convite de Edição Falso</h4>
+                    <p>Golpes via plataformas de colaboração. <em>Fonte: Alertas Microsoft/Google.</em></p>
+                </div>
+                <div class="ref-item">
+                    <h4>19. Arquivos Contêiner e Macros</h4>
+                    <p>Uso de .ISO e .VHD para evasão. <em>Fonte: Relatórios de threat intelligence.</em></p>
+                </div>
+                <div class="ref-item">
+                    <h4>20. Deepfake e MFA Fatigue</h4>
+                    <p>Engenharia social com IA. <em>Fonte: Relatórios de tendências de ameaças.</em></p>
+                </div>
+                <div class="ref-item">
+                    <h4>21. Trabalho Híbrido</h4>
+                    <p>Riscos domésticos e VPN. <em>Fonte: Relatórios de cloud security.</em></p>
+                </div>
+                <div class="ref-item">
+                    <h4>22. Shadow SaaS</h4>
+                    <p>Integrações não autorizadas. <em>Fonte: Relatórios de SSPM.</em></p>
+                </div>
+                <div class="ref-item">
+                    <h4>23. Vishing com Spoofing</h4>
+                    <p>Golpes por voz e falsificação de número. <em>Fonte: Relatórios antifraude.</em></p>
+                </div>
+                <div class="ref-item">
+                    <h4>24. Engenharia Social no LinkedIn</h4>
+                    <p>Espionagem corporativa. <em>Fonte: Proteção de ativos intangíveis.</em></p>
+                </div>
+                <div class="ref-item">
+                    <h4>25. Isca da Fiscalização</h4>
+                    <p>Phishing explorando medo institucional. <em>Fonte: Órgãos governamentais.</em></p>
+                </div>
+                <div class="ref-item">
+                    <h4>26. Compartilhamento de Credenciais</h4>
+                    <p>Violação de não-repúdio. <em>Fonte: Políticas de segurança e compliance.</em></p>
+                </div>
+            </div>
+            
+            <button id="btn-close-bottom" style="margin-top:20px; padding:10px; width:100%; background:#333; color:white; border:none; border-radius:5px; cursor:pointer;">Fechar</button>
+        </div>
+    </div>
+</body>
+</html>
